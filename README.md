@@ -32,22 +32,24 @@ Installation and Usage
 1.	Clone the repository:
 
 
-[git clone https://github.com/ArtTheAche98/medical-terminology-translator.git]
+'git clone https://github.com/ArtTheAche98/medical-terminology-translator.git'
 
 2.	Install the required dependencies:
 
-[pip install -r requirements.txt]
+'pip install -r requirements.txt'
 
 3.	Run the program:
 
-[python project.py]
+'python project.py'
 
 4.	Enter a term in Latin or English when prompted, and the program will display the Georgian translation.
 ________________________________________
 Testing
 To test the program, use pytest to run the unit tests in test_project.py:
-pytest test_project.py
+
+'pytest test_project.py'
 ________________________________________
 Challenges and Future Goals
+
 During development, I debated between a simpler structure and a more complex program with potential for expansion. Given the lack of Georgian-language medical resources, I opted for a focused approach that prioritizes accuracy and usability. In the future, I hope to extend this project by creating an online database accessible to all Georgian medical students and expanding the range of supported terms.
 
