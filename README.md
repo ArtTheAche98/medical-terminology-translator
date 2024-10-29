@@ -1,7 +1,8 @@
-Project Title
+Project Title:
 Medical Terminology Translator for Georgian Students
+
 Video Demo:
-Provide a link to your demo video here, e.g., https://youtu.be/your-video-link
+ttps://youtu.be/your-video-link
 ________________________________________
 Description
 This project aims to create a medical terminology translator tailored for Georgian students studying medicine. Inspired by the lack of accessible, modern Georgian-language resources in fields like anatomy, this Python program simplifies the learning process by translating medical terms from Latin or English into Georgian.
