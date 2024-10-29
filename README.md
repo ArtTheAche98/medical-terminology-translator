@@ -16,16 +16,26 @@ Features
 ________________________________________
 Project Files
 
-•	project.py: Contains the main program logic. This includes:
-o	main(): Initializes the program and handles user interaction.
-o	translate_terms(term, combined_terms): Accepts a term (in Latin or English) and returns the corresponding Georgian translation.
-o	load_terms(): Loads the medical terms and their translations from a local file.
-o	get_suggestions(term, combined_terms): Provides alternative suggestions if a term is not found in the database, helping users find the closest matches.
-•	test_project.py: Contains unit tests for the primary functions in project.py, ensuring functionality and accuracy:
-o	test_translate_term(): Tests the accuracy of translations.
-o	test_load_terms(): Verifies that the terms are loaded correctly from the file.
-o	test_get_suggestions(): Confirms that suggestions for misspelled terms are accurate.
-•	requirements.txt: Lists the libraries needed to run the program. (e.g., pytest, fuzzywuzzy for suggestions)
+•	`project.py`: Contains the main program logic. This includes:
+
+o	`main()`: Initializes the program and handles user interaction.
+
+o	`translate_terms(term, combined_terms)`: Accepts a term (in Latin or English) and returns the corresponding Georgian translation.
+
+o	`load_terms()`: Loads the medical terms and their translations from a local file.
+
+o	`get_suggestions(term, combined_terms)`: Provides alternative suggestions if a term is not found in the database, helping users find the closest matches.
+
+•	`test_project.py`: Contains unit tests for the primary functions in project.py, ensuring functionality and accuracy:
+
+o	`test_translate_term()`: Tests the accuracy of translations.
+
+o	`test_load_terms()`: Verifies that the terms are loaded correctly from the file.
+
+o	`test_get_suggestions()`: Confirms that suggestions for misspelled terms are accurate.
+
+•	`requirements.txt`: Lists the libraries needed to run the program. (e.g., pytest, sys for difflib)
+
 ________________________________________
 Installation and Usage
 
