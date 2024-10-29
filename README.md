@@ -33,10 +33,15 @@ Installation and Usage
 
 
 [git clone https://github.com/ArtTheAche98/medical-terminology-translator.git]
+
 2.	Install the required dependencies:
-pip install -r requirements.txt
+
+[pip install -r requirements.txt]
+
 3.	Run the program:
-python project.py
+
+[python project.py]
+
 4.	Enter a term in Latin or English when prompted, and the program will display the Georgian translation.
 ________________________________________
 Testing
