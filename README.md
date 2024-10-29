@@ -31,6 +31,7 @@ Installation and Usage
 
 1.	Clone the repository:
 
+bash
 git clone https://github.com/ArtTheAche98/medical-terminology-translator.git
 2.	Install the required dependencies:
 pip install -r requirements.txt
