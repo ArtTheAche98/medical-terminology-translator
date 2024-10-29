@@ -5,14 +5,17 @@ Video Demo:
 ttps://youtu.be/your-video-link
 ________________________________________
 Description
+
 This project aims to create a medical terminology translator tailored for Georgian students studying medicine. Inspired by the lack of accessible, modern Georgian-language resources in fields like anatomy, this Python program simplifies the learning process by translating medical terms from Latin or English into Georgian.
 As a former medical student myself, I faced numerous challenges due to the limited availability of up-to-date Georgian-language resources. Most materials were translations from decades ago. With this translator, I hope to ease the burden for future students and provide a resource that allows them to quickly and accurately find translations for essential medical terms.
 ________________________________________
 Features
+
 1.	Input Translation: Users can enter medical terms in Latin or English, and the program translates these terms into Georgian.
 2.	Accurate Results: The translator relies on a curated list of medical nomenclature that I adapted and verified during over 100 hours of previous work, ensuring high accuracy.
 ________________________________________
 Project Files
+
 •	project.py: Contains the main program logic. This includes:
 o	main(): Initializes the program and handles user interaction.
 o	translate_terms(term, combined_terms): Accepts a term (in Latin or English) and returns the corresponding Georgian translation.
@@ -25,9 +28,10 @@ o	test_get_suggestions(): Confirms that suggestions for misspelled terms are acc
 •	requirements.txt: Lists the libraries needed to run the program. (e.g., pytest, fuzzywuzzy for suggestions)
 ________________________________________
 Installation and Usage
+
 1.	Clone the repository:
-bash
-git clone https://github.com/yourusername/medical-terminology-translator.git
+
+git clone https://github.com/ArtTheAche98/medical-terminology-translator.git
 2.	Install the required dependencies:
 pip install -r requirements.txt
 3.	Run the program:
